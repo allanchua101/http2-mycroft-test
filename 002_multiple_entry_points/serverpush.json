@@ -1,0 +1,107 @@
+[
+  {
+    "get": "/index.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/css\\third.css",
+          "/js\\simple-1.js",
+          "/js\\simple-4.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png",
+          "/imgs\\orange.png"
+        ]
+      }
+    ]
+  },
+  {
+    "get": "/index2.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/css\\second.css",
+          "/css\\third.css",
+          "/js\\simple-1.js",
+          "/js\\simple-2.js",
+          "/js\\simple-3.js",
+          "/js\\simple-4.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png",
+          "/imgs\\black.png",
+          "/imgs\\orange.png"
+        ]
+      }
+    ]
+  },
+  {
+    "get": "/index3.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\second.css",
+          "/css\\third.css",
+          "/js\\simple-1.js",
+          "/js\\simple-2.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\orange.png"
+        ]
+      }
+    ]
+  },
+  {
+    "get": "/index4.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/css\\third.css",
+          "/js\\simple-1.js",
+          "/js\\simple-4.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png"
+        ]
+      }
+    ]
+  },
+  {
+    "get": "/index5.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/js\\simple-1.js",
+          "/js\\simple-4.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png"
+        ]
+      }
+    ]
+  }
+]
