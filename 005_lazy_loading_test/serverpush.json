@@ -1,0 +1,24 @@
+[
+  {
+    "get": "/index.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/css\\second.css",
+          "/css\\third.css",
+          "/js\\simple-1.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png",
+          "/imgs\\black.png",
+          "/imgs\\orange.png"
+        ]
+      }
+    ]
+  }
+]
