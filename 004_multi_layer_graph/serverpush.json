@@ -1,0 +1,35 @@
+[
+  {
+    "get": "/index.html",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/css\\first.css",
+          "/css\\second.css",
+          "/css\\third.css",
+          "/js\\consumer.js"
+        ]
+      },
+      {
+        "priority": 1,
+        "glob": [
+          "/imgs\\green.png",
+          "/imgs\\black.png",
+          "/imgs\\orange.png"
+        ]
+      }
+    ]
+  },
+  {
+    "get": "/js\\consumer.js",
+    "push": [
+      {
+        "priority": 256,
+        "glob": [
+          "/js\\calculator"
+        ]
+      }
+    ]
+  }
+]
